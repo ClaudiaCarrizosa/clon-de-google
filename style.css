@@ -1,0 +1,135 @@
+*{
+   background-color: #FFFFFF;
+   
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#{
+    text-decoration:none;
+    cursor: pointer;
+
+}
+
+.clau{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 15hv;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    padding: 20 px 10 px;
+}
+
+#nav-right-section{
+    padding: 20px 10 px;
+}
+
+#nav-left-section{
+    padding:  0px 10px;
+}
+
+#footer-listas{
+    display: flex;
+}
+
+
+.pais{
+        padding: 10px;
+    }
+
+.cajas{
+    background-color: #FFFFFF;
+    border: 1 px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    cursor:pointer;
+}
+
+.logo-google{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+#seccion-buscador{
+    margin:20px 0px;
+    min-height: 44px;
+    border-radius: 24px;
+    width: 560px;
+    display: flex;
+    justify-content: space-between; 
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#seccion-buscador svg{
+    padding: 5px 7px;
+    width: 24px
+}
+#seccion{
+    width:85%;
+    border: none;
+    online:none;
+
+}
+
+circle[Attributes Style] {
+    fill: rgb(66, 133, 244);
+    cx: 96.07;
+    cy: 104;
+    r: 24;
+}
